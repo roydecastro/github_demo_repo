@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Simple System</title>
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
@@ -97,5 +98,7 @@
 
 @yield('content')
      
+
+<script src="//cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
 </body>
 </html>
